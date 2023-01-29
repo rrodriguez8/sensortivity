@@ -1,3 +1,40 @@
 .row {
     justify-content: space-between;
 }
+
+.nav-link:focus, .nav-link:hover {
+    color: #fd7f32;
+}
+
+.card-product:hover {
+    border: 1px solid #fd7f32;
+}
+
+.btn-primary {
+    --fc-btn-bg: #fd7f32;
+    --fc-btn-border-color: #fd7f32;
+    --fc-btn-hover-bg: #fd7f32;
+    --fc-btn-hover-border-color: #fd7f32;
+    --fc-btn-active-bg: #fd7f32;
+    --fc-btn-active-border-color: #fd7f32;
+    --fc-btn-disabled-bg: #fd7f32;
+    --fc-btn-disabled-border-color: #fd7f32;
+}
+
+.btn:hover {
+    background-color: #ffb080;
+    border-color: #ffb080;
+}
+
+.footer .nav .nav-item .nav-link:hover {
+    color: #fd7f32;
+}
+
+.btn-social:hover {
+    border: 1px solid #fd7f32;
+    color: #fd7f32;
+}
+
+.badge {
+    background-color: #fd7f32;
+}
